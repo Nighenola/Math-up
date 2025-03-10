@@ -1,0 +1,42 @@
+# Arithmetic Operations
+a = 10
+b = 5
+
+sum_result = a + b
+difference = a - b
+product = a * b
+quotient = a / b
+modulus = a % b
+exponentiation = a ** b
+
+print("Arithmetic Operations:")
+print(f"Sum: {sum_result}, Difference: {difference}")
+print(f"Product: {product}, Quotient: {quotient}")
+print(f"Modulus: {modulus}, Exponentiation: {exponentiation}")
+
+# String Manipulation
+string1 = "Hello"
+string2 = "World"
+
+concatenation = string1 + " " + string2
+uppercase_string = concatenation.upper()
+lowercase_string = concatenation.lower()
+substring = concatenation[0:5]  # Extracting 'Hello'
+
+print("\nString Manipulation:")
+print(f"Concatenation: {concatenation}")
+print(f"Uppercase: {uppercase_string}")
+print(f"Lowercase: {lowercase_string}")
+print(f"Substring: {substring}")
+
+# Exploring Data Types
+integer_var = 25
+float_var = 25.75
+string_var = "Python Programming"
+boolean_var = True
+
+print("\nData Types:")
+print(f"Integer: {integer_var}, Type: {type(integer_var)}")
+print(f"Float: {float_var}, Type: {type(float_var)}")
+print(f"String: {string_var}, Type: {type(string_var)}")
+print(f"Boolean: {boolean_var}, Type: {type(boolean_var)}")
